@@ -136,5 +136,14 @@ public class BeanGame extends Application {
 		Ellipse D26 = new Ellipse(165,168,5,5);
 		Ellipse D27 = new Ellipse(195,168,5,5);
 		Ellipse D28 = new Ellipse(225,168,5,5);
+
+		//Add all things in pane
+		pane.getChildren().addAll(L1,L2,L3,L4,L5,L6,L7,L8,L9,L10,L11,L12,L13,L14,D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28);
+		//Add the pane in the scene
+		Scene scene = new Scene(pane, 480, 240);
+		//Add scene in the stage
+		primaryStage.setScene(scene);
+		//Show the stage
+		primaryStage.show();
 	}
 }
